@@ -9,9 +9,9 @@
 	
 </head>
 <body>
+
+	<img src="img/logov6.jpg" height="100" width="100" />
 	<div class="container-fluid">
-	
-	
 		<!-- nav bar -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<a class="navbar-brand" href="Index1.html">BarBarista</a>
@@ -27,7 +27,7 @@
 				<a class="nav-link active" href="Specialoffers.html">Special Offers</a><span class="sr-only">(current)</span></a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="#">Gallery</a>
+				<a class="nav-link" href="gallery.html">Gallery</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="retail.html">Retail</a>
@@ -50,6 +50,13 @@
 			 <img src="img/hamandcheesesambo.jfif" class="card-img-top" alt="hamandcheesesambo">
 			<h5 class="card-title">Ham & Cheese Sambo</h5>
 			<p class="card-text">Fiver on Fridays</p>
+			<form class="add-to-cart" action="cart.html" method="get">
+					<div>
+						<label for="qty-4">Quantity</label>
+						<input type="text" name="qty-4" id="qty-4" class="qty" value="1" />
+					</div>
+					<p><input type="submit" value="Add to cart" class="btn" /></p>
+				</form>
 			</div>
 		  </div>
 		</div>
@@ -60,7 +67,13 @@
 		   <img src="img/coffeeandcrossaint.jfif" class="card-img-top" alt="coffeeandcrossaint">
 			<h5 class="card-title">Coffee & Crossaints</h5>
 			<p class="card-text"> &euro; 3</p>
-			
+			<form class="add-to-cart" action="cart.html" method="get">
+					<div>
+						<label for="qty-5">Quantity</label>
+						<input type="text" name="qty-5" id="qty-5" class="qty" value="1" />
+					</div>
+					<p><input type="submit" value="Add to cart" class="btn" /></p>
+				</form>
 		  </div>
 		</div>
 		</div>
@@ -72,8 +85,14 @@
 		  <img src="img/proteinsmoothies.jfif" class="card-img-top" alt="proteinsmoothies">
 			<h5 class="card-title">Protein Smoothies</h5>
 			<p class="card-text"> Healthy alternative for &euro; 3</p>
-
-			
+			<div class="product-description" data-name="Protein Smoothies" data-price="3">
+				<form class="add-to-cart" action="cart.html" method="get">
+					<div>
+						<label for="qty-6">Quantity</label>
+						<input type="text" name="qty-6" id="qty-6" class="qty" value="1" />
+					</div>
+					<p><input type="submit" value="Add to cart" class="btn" /></p>
+				</form>
 		  </div>
 		  </div>
 		</div>
